@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 01, 2020 at 09:24 AM
+-- Generation Time: Apr 01, 2020 at 10:47 AM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.3.7
 
@@ -43,7 +43,7 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`name`, `email`, `userName`, `password`, `gender`, `dob`, `picture`) VALUES
-('Avishek ', 'avishek123@gmail.co', 'saha', '123', 'male', '10/01/1999', 'uploads/IMG_0082 (3) edit pro-min.jpg'),
+('Avishek ', 'avishek123@gmail.co', 'saha', 'itsShuv@4229', 'male', '10/01/1999', 'uploads/IMG_0082 (3) edit pro-min.jpg'),
 ('Riki Saha', 'r@gmail.com', 'rs', '1234', 'male', '10/01/1999', 'uploads/user-male-icon.png');
 
 -- --------------------------------------------------------
@@ -65,10 +65,28 @@ CREATE TABLE `products` (
 
 INSERT INTO `products` (`pid`, `pname`, `description`, `pquantity`) VALUES
 (1, '7up', '600ml', 80),
-(2, '7up', '600ml', 5),
-(1, '7up', '600ml', 80),
-(0, '7up', '600ml', 23),
-(0, '7up', '600ml', 78);
+(2, 'Sprite', '600ml', 5),
+(3, 'Coke', '500ml', 13);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `products`
+--
+ALTER TABLE `products`
+  ADD PRIMARY KEY (`pid`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `products`
+--
+ALTER TABLE `products`
+  MODIFY `pid` bigint(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
