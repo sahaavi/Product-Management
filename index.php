@@ -27,7 +27,7 @@ th {
 <body>
 
 <div class="topnav">
-  <a href="index.html">Home</a>
+  <a href="index.php">Home</a>
   <a href="login.php">Login</a>
   <a href="registration.php">Registration</a>
 </div>

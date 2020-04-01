@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 15, 2020 at 10:35 PM
+-- Generation Time: Apr 01, 2020 at 09:24 AM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.3.7
 
@@ -43,7 +43,8 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`name`, `email`, `userName`, `password`, `gender`, `dob`, `picture`) VALUES
-('Avishek ', 'avishek123@gmail.co', 'saha', '123', 'male', '10/01/1999', 'uploads/IMG_0082 (3) edit pro-min.jpg');
+('Avishek ', 'avishek123@gmail.co', 'saha', '123', 'male', '10/01/1999', 'uploads/IMG_0082 (3) edit pro-min.jpg'),
+('Riki Saha', 'r@gmail.com', 'rs', '1234', 'male', '10/01/1999', 'uploads/user-male-icon.png');
 
 -- --------------------------------------------------------
 
