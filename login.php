@@ -83,23 +83,3 @@ if(isset($_POST['login']))
 mysqli_close($con);		
 }
 ?>
-
-	
-
-
-<?php
-	// $sql="SELECT * FROM customers WHERE id=1";
-	// $result=mysqli_query($con,$sql);	
-	// if(mysqli_num_rows($result)>0)
-	// {
-	// 	while($row=mysqli_fetch_array($result))
-	// 	{
-	// 		//echo "Id: ".$row[0]." Name: ".$row[1]."<br/>";
-	// 		echo "Id: ".$row['id']." Name: ".$row['name']."<br/>";
-	// 	}
-	// }
-	// else
-	// {
-	// 	echo "No data found.<br/>";
-	// }
-?>
