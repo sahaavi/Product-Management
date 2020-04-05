@@ -1,10 +1,9 @@
 # Product-Management
+A mini project on Product Management using php. 
+
 [![Forks][forks-shield]][forks-url]
 [![MIT License][license-shield]][license-url]
 [![Stargazers][stars-shield]][stars-url]
-
-
-A mini project on Product Management using php. 
 
 ## Features
   * Homepage
