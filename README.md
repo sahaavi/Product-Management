@@ -21,10 +21,11 @@ A mini project on Product Management using php.
   * Change Password
 
 ## Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+
 * [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [php](https://www.php.net/)
+* [html](https://html.com/)
+* [css](https://www.w3.org/Style/CSS/Overview.en.html)
  
 ## License
 
