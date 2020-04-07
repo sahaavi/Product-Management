@@ -1,9 +1,7 @@
 # Product-Management
 A mini project on Product Management using php. 
 
-image:https://img.shields.io/github/v/release/sahaavi/Product-Management[GitHub release (latest by date)]
-
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/sahaavi/Product-Management">
+[![Release][release-shield]][release-url]
 [![Forks][forks-shield]][forks-url]
 [![MIT License][license-shield]][license-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -45,6 +43,8 @@ Distributed under the MIT License. See 'LICENSE' for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[release-shield]: https://img.shields.io/github/v/release/sahaavi/Product-Management.svg?style=flat-square
+[release-url]: https://github.com/sahaavi/Product-Management/releases
 [forks-shield]: https://img.shields.io/github/forks/sahaavi/Product-Management.svg?style=flat-square
 [forks-url]: https://github.com/sahaavi/Product-Management/network/members
 [stars-shield]: https://img.shields.io/github/stars/sahaavi/Product-Management.svg?style=flat-square
