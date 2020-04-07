@@ -1,9 +1,9 @@
 # Product-Management
 A mini project on Product Management using php. 
 
-[![npm](https://img.shields.io/npm/v/npm-auto-version.svg?maxAge=2592000)](https://www.npmjs.com/package/npm-auto-version)
-[![downloads](https://img.shields.io/npm/dt/npm-auto-version.svg?maxAge=2592000)](https://www.npmjs.com/package/npm-auto-version)
+image:https://img.shields.io/github/v/release/sahaavi/Product-Management[GitHub release (latest by date)]
 
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/sahaavi/Product-Management">
 [![Forks][forks-shield]][forks-url]
 [![MIT License][license-shield]][license-url]
 [![Stargazers][stars-shield]][stars-url]
