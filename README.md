@@ -4,8 +4,8 @@ A mini project on Product Management using php.
 [![Release][release-shield]][release-url]
 [![Forks][forks-shield]][forks-url]
 [![Downloads][downloads-shield]][downloads-url]
-[![MIT License][license-shield]][license-url]
 [![Stargazers][stars-shield]][stars-url]
+[![MIT License][license-shield]][license-url]
 
 ## Features
   * Homepage
@@ -34,7 +34,7 @@ Stable version release [v1.0.0](https://github.com/sahaavi/Product-Management/re
  
 ## License
 
-Distributed under the MIT License. See 'LICENSE' for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
