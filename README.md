@@ -3,6 +3,7 @@ A mini project on Product Management using php.
 
 [![Release][release-shield]][release-url]
 [![Forks][forks-shield]][forks-url]
+[![Downloads][downloads-shield]][downloads-url]
 [![MIT License][license-shield]][license-url]
 [![Stargazers][stars-shield]][stars-url]
 
@@ -29,7 +30,7 @@ A mini project on Product Management using php.
 * [css](https://www.w3.org/Style/CSS/Overview.en.html)
 
 ## Version
-
+Stable version release [v1.0.0](https://github.com/sahaavi/Product-Management/releases)
  
 ## License
 
@@ -39,14 +40,13 @@ Distributed under the MIT License. See 'LICENSE' for more information.
 
 
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [release-shield]: https://img.shields.io/github/v/release/sahaavi/Product-Management.svg?style=flat-square
 [release-url]: https://github.com/sahaavi/Product-Management/releases
 [forks-shield]: https://img.shields.io/github/forks/sahaavi/Product-Management.svg?style=flat-square
 [forks-url]: https://github.com/sahaavi/Product-Management/network/members
+[downloads-shield]: https://img.shields.io/github/downloads/sahaavi/Product-Management/total.svg?style=flat-square
+[downloads-url]: https://github.com/sahaavi/Product-Management
 [stars-shield]: https://img.shields.io/github/stars/sahaavi/Product-Management.svg?style=flat-square
 [stars-url]: https://github.com/sahaavi/Product-Management/stargazers
 [license-shield]: https://img.shields.io/github/license/sahaavi/Product-Management.svg?style=flat-square
