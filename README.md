@@ -29,7 +29,7 @@ A mini project on Product Management using php.
  
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [![License][license-shield]][license-url] for more information.
 
 
 
@@ -45,4 +45,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [stars-url]: https://github.com/sahaavi/Product-Management/stargazers
 [license-shield]: https://img.shields.io/github/license/sahaavi/Product-Management.svg?style=flat-square
 [license-url]: https://github.com/sahaavi/Product-Management/blob/master/LICENSE
-
