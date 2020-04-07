@@ -26,10 +26,13 @@ A mini project on Product Management using php.
 * [php](https://www.php.net/)
 * [html](https://html.com/)
 * [css](https://www.w3.org/Style/CSS/Overview.en.html)
+
+## Version
+
  
 ## License
 
-Distributed under the MIT License. See [![License][license-shield]][license-url] for more information.
+Distributed under the MIT License. See 'LICENSE' for more information.
 
 
 
