@@ -4,7 +4,6 @@ A mini project on Product Management using php.
 [![Release][release-shield]][release-url]
 [![Forks][forks-shield]][forks-url]
 [![Downloads][downloads-shield]][downloads-url]
-[![Github All Releases](https://img.shields.io/github/downloads/sahaavi/Product-Management/total.svg)]()
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
 
