@@ -1,6 +1,9 @@
 # Product-Management
 A mini project on Product Management using php. 
 
+[![npm](https://img.shields.io/npm/v/npm-auto-version.svg?maxAge=2592000)](https://www.npmjs.com/package/npm-auto-version)
+[![downloads](https://img.shields.io/npm/dt/npm-auto-version.svg?maxAge=2592000)](https://www.npmjs.com/package/npm-auto-version)
+
 [![Forks][forks-shield]][forks-url]
 [![MIT License][license-shield]][license-url]
 [![Stargazers][stars-shield]][stars-url]
