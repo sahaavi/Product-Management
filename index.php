@@ -37,7 +37,7 @@ th {
   <p>Welcome to xCompany</p>
   <?php
 
-  $con=mysqli_connect("localhost","root","","testdb");
+  $con=mysqli_connect("ec2-23-20-129-146.compute-1.amazonaws.com","dbdzapnpxswjbh","c255e2dd4c81dc6e33fbc6aa0712196d5ccfa0b435f473f3f030453922ef026c","dciu654g9veev0");
   if(!$con)
   {
     die("Connection Error: ".mysqli_connect_error()."<br/>");
