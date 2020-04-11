@@ -43,7 +43,7 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`name`, `email`, `userName`, `password`, `gender`, `dob`, `picture`) VALUES
-('Avishek ', 'avishek123@gmail.co', 'saha', 'itsShuv@4229', 'male', '10/01/1999', 'uploads/IMG_0082 (3) edit pro-min.jpg'),
+('Avishek ', 'avishek@gmail.co', 'saha', 'itsp', 'male', '10/01/1999', 'uploads/IMG_0082 (3) edit pro-min.jpg'),
 ('Riki Saha', 'r@gmail.com', 'rs', '1234', 'male', '10/01/1999', 'uploads/user-male-icon.png');
 
 -- --------------------------------------------------------
