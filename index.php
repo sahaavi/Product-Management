@@ -1,3 +1,7 @@
+<?php
+  define('ROOT_URL','');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
