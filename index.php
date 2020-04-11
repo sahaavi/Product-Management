@@ -37,11 +37,27 @@ th {
   <p>Welcome to xCompany</p>
   <?php
 
-  $con=mysqli_connect("ec2-23-20-129-146.compute-1.amazonaws.com","dbdzapnpxswjbh","c255e2dd4c81dc6e33fbc6aa0712196d5ccfa0b435f473f3f030453922ef026c","dciu654g9veev0");
-  if(!$con)
-  {
-    die("Connection Error: ".mysqli_connect_error()."<br/>");
-  }
+$host = "ec2-23-20-129-146.compute-1.amazonaws.com";
+$user = "dbdzapnpxswjbh";
+$password = "c255e2dd4c81dc6e33fbc6aa0712196d5ccfa0b435f473f3f030453922ef026c";
+$dbname = "dciu654g9veev0";
+$port = "5432";
+
+try{
+  //Set DSN data source name
+    $dsn = "pgsql:host=" . $host . ";port=" . $port .";dbname=" . $dbname . ";user=" . $user . ";password=" . $password . ";";
+
+
+  //create a pdo instance
+  $pdo = new PDO($dsn, $user, $password);
+  $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_OBJ);
+  $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
+  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
+catch (PDOException $e) {
+echo 'Connection failed: ' . $e->getMessage();
+}
+ 
 
   $sql="SELECT * FROM products";
   $result=mysqli_query($con,$sql);
