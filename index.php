@@ -40,7 +40,8 @@ th {
   <h1 style="text-align: center">XCompany</h1>
   <p>Welcome to xCompany</p>
   <?php
-
+  
+  
 $host = "ec2-23-20-129-146.compute-1.amazonaws.com";
 $user = "dbdzapnpxswjbh";
 $password = "c255e2dd4c81dc6e33fbc6aa0712196d5ccfa0b435f473f3f030453922ef026c";
@@ -64,8 +65,11 @@ echo 'Connection failed: ' . $e->getMessage();
  
 
   $sql="SELECT * FROM products";
-  $result=mysqli_query($con,$sql);
-  if(mysqli_num_rows($result)>0)
+  $stmt= $pdo->prepare($sql);
+  $stmt->execute();
+  $result= $stmt->rowCount();
+  
+  if($result>0)
    {
     ?>
     <table border='1' cellpadding='8'>
@@ -76,7 +80,7 @@ echo 'Connection failed: ' . $e->getMessage();
         <th>Product Quantity</th>
       </tr>
     <?php
-    while($row=mysqli_fetch_array($result))
+    while( $row= $stmt->fetch())
     {
       echo "<tr>";
       echo "<td>".$row['pid']."</td>";
@@ -92,8 +96,7 @@ echo 'Connection failed: ' . $e->getMessage();
    else
    {
     echo "No data found.<br/>";
-   }
-mysqli_close($con);   
+   }  
 ?>
 </div>
 
