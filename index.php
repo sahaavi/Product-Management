@@ -1,7 +1,3 @@
-<?php
-  define('ROOT_URL','');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,36 +36,16 @@ th {
   <h1 style="text-align: center">XCompany</h1>
   <p>Welcome to xCompany</p>
   <?php
-  
-  
-$host = "ec2-23-20-129-146.compute-1.amazonaws.com";
-$user = "dbdzapnpxswjbh";
-$password = "c255e2dd4c81dc6e33fbc6aa0712196d5ccfa0b435f473f3f030453922ef026c";
-$dbname = "dciu654g9veev0";
-$port = "5432";
 
-try{
-  //Set DSN data source name
-    $dsn = "pgsql:host=" . $host . ";port=" . $port .";dbname=" . $dbname . ";user=" . $user . ";password=" . $password . ";";
-
-
-  //create a pdo instance
-  $pdo = new PDO($dsn, $user, $password);
-  $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_OBJ);
-  $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
-  $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-}
-catch (PDOException $e) {
-echo 'Connection failed: ' . $e->getMessage();
-}
- 
+  $con=mysqli_connect("localhost","root","","testdb");
+  if(!$con)
+  {
+    die("Connection Error: ".mysqli_connect_error()."<br/>");
+  }
 
   $sql="SELECT * FROM products";
-  $stmt= $pdo->prepare($sql);
-  $stmt->execute();
-  $result= $stmt->rowCount();
-  
-  if($result>0)
+  $result=mysqli_query($con,$sql);
+  if(mysqli_num_rows($result)>0)
    {
     ?>
     <table border='1' cellpadding='8'>
@@ -80,7 +56,7 @@ echo 'Connection failed: ' . $e->getMessage();
         <th>Product Quantity</th>
       </tr>
     <?php
-    while( $row= $stmt->fetch())
+    while($row=mysqli_fetch_array($result))
     {
       echo "<tr>";
       echo "<td>".$row['pid']."</td>";
@@ -96,7 +72,8 @@ echo 'Connection failed: ' . $e->getMessage();
    else
    {
     echo "No data found.<br/>";
-   }  
+   }
+mysqli_close($con);   
 ?>
 </div>
 
